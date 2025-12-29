@@ -6,7 +6,7 @@ import { useSoundContext } from './sound-context';
 export default function MusikCard() {
     const { toggle, playing } = useSoundContext();
     return (
-        <div className="fixed right-10 top-7 flex flex-col items-center justify-center ring-2 p-7 rounded-2xl bg-white/10 shadow-white shadow-lg z-100">
+        <div className="fixed right-10 top-7 flex flex-col items-center justify-center ring-2 p-7 rounded-2xl bg-white/10 shadow-white shadow-lg z-50">
             <img src="/Never_Enough_(Turnstile).png" alt="" className="w-20 h-20 rounded-2xl" />
             <h3 className="font-bold text-xl pt-3">Trunstile </h3>
             <p className="text-sm">Light Desain</p>

@@ -18,7 +18,7 @@ export default function Loading() {
 
     return (
         <div
-            className={`fixed inset-0 flex flex-col items-center justify-center bg-black transition-all duration-300 ease-in-out z-50 ${loading ? "opacity-100 scale-100" : "opacity-0  pointer-events-none "}`}>
+            className={`fixed inset-0 flex flex-col items-center justify-center bg-black transition-all duration-300 ease-in-out z-60 ${loading ? "opacity-100 scale-100" : "opacity-0  pointer-events-none "}`}>
 
             <div className="w-50 h-50 rounded-full animate-spin mb-5 shadow-gd shadow-blue-200 inset-shadow-kc inset-shadow-blue-200">
                 <img
